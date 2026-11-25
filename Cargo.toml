@@ -1,0 +1,11 @@
+[package]
+name = "legaltech-ab-service"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "matter_decision"
+path = "src/matter_decision.rs"
+
+[dependencies]
+ureq = { version = "2", features = ["tls"] }
